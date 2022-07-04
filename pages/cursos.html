@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/img/ecademy-logo-favicom.jpg" type="image/x-icon">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Mis cursos</title>
+</head>
+
+<body class="container-fluid">
+    <nav class="navbar">
+        <div><img src="../assets/img/logo-ecademy-navbar-mini.jpg" alt="">
+        </div>
+        <div><a href="../index.html">Inicio</a>
+        </div>
+        <div><a href="./ingreso.html">Ingresar</a>
+        </div>
+        <div> <a href="./nosotros.html">Nosotros</a>
+        </div>
+        <div> <a href="./cursos.html">Cursos</a>
+        </div>
+        <div><a href="./clases.html">Mis clases</a>
+        </div>
+        <div><a href="./perfil.html">Mi perfil</a>
+        </div>
+    </nav>
+    <header>
+        <h1>Cursos</h1>
+    </header>
+    <main class="cursospage">
+        <div class="cursos1">
+           <table border="1">
+               <tr>
+                   <th>Nivel/Idioma</th>
+                   <th>Español</th>
+                  <th>Inglés</th>
+               </tr>
+               <tr>
+                   <td>A1</td>
+                   <td>Mié, Vie 8 a 9 hs (ARG)</td>
+                   <td>Lun, Mié, Vie 9 hs; 11.30 hs (ARG)</td>
+               </tr>
+               <tr>
+                   <td>A2</td>
+                   <td>consultar</td>
+                   <td>Mié 18.30 hs (ARG)</td>
+               </tr>
+               <tr>
+                   <td>KIDS</td>
+                   <td>consultar</td>
+                   <td>Lun 18.30 hs (ARG)</td>
+               </tr>
+           </table>
+        </div>
+        <div class="cursos2">
+            <div>
+                <h3>Tipos de clases</h3>
+            </div>
+            <div>
+                <ul class="lista1">
+                <li>Particulares</li>
+                <li>Grupales</li>
+                <li>Presenciales</li>
+                <li>Online</li>
+            </ul>
+            </div>
+        </div>
+        <div class="cursos3">
+            <div><h2>Solicita un presupuesto</h2>
+            </div>
+            <div class="form1">
+                <form action="inicio.php" method="post">
+                   <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+                   <input type="number" name="telefono" id="telefono" placeholder="Ingrese su Nro de Tel" required>
+                   <input type="email" name="email" id="email" placeholder="Ingrese su email" required>
+                   <input type="number" name="horas" id="horas" placeholder="Horas que desea cursar">
+                   <input type="submit" value="Enviar">
+                   <input type="reset" value="Borrar">
+                   <div>
+                       <h3>Tipo de clases:</h3>
+                       <label for="clase">Individual</label>
+                       <input type="radio" name="clase" value="i">
+                       <label for="clase">Grupal<label>               <input type="radio" name="clase" value="g">
+                   </div>
+                   <h3>Idioma que deseas aprender:</h3>
+                   <select name="idioma">
+                       <option value="s">Español</option>
+                       <option value="e">Inglés</option>
+                   </select>
+                   <br>
+                   <br>
+                   <textarea name="Comentario" id="Comentario" cols="30" rows="10">Ingrese su comentario o consulta</textarea>
+                </form>
+            </div>  
+        </div>
+    </main>
+    <aside>Nos pondremos en contacto a la brevedad
+    </aside>
+    <footer> 
+        <h5>©2022 mlauracattaneo, todos los derechos reservados</h5>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
